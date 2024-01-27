@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="nav">
+        <p>BDM Job Application</p>
+        <div class="image">
+            <img src="./download.png" alt="company logo" class="img-fluid">
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="apply-box">
+                <h1>Job Application<span class="title">(Software)</span></h1>
+                <form action="">
+                    <div class="form-container">
+                        <div class="form-control">
+                            <label for="first name">First Name</label>
+                            <input type="text" name="first name" id="first name"
+                            placeholder="Enter First Name">
+                        </div>
+                        <div class="form-control">
+                            <label for="last name">Last Name</label>
+                            <input type="text" name="last name" id="last name"
+                            placeholder="Enter Last Name">
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email"
+                            placeholder="Enter Email">
+                        </div>
+                        <div class="form-control">
+                            <label for="job role">Job Role</label>
+                            <select name="job role" id="jobrole">
+                                <option value="">Select Job Role</option>
+                                <option value="job role">Frontend Developer</option>
+                                <option value="job role">Backend Developer</option>
+                                <option value="job role">Fullstack Developer</option>
+                                <option value="job role">UX/UI Designer</option>
+                                <option value="job role">DevOps Engineer</option>
+                                <option value="job role">AI/ML Engineer</option>
+                                <option value="job role">Big Data Engineer</option>
+                                <option value="job role">Data Analyst</option>
+                                <option value="job role">Data Scientist</option>
+                                <option value="job role">Python Developer</option>
+
+                            </select>
+                        </div>
+                        <div class="textarea-control">
+                            <label for="address">Address</label>
+                            <textarea name="address" id="" cols="30" rows="10"
+                            placeholder="Enter Address"></textarea>
+                        </div>
+                        <div class="form-control">
+                            <label for="city">City</label>
+                            <input type="text" name="city" id="city"
+                            placeholder="Enter City">
+                        </div>
+                        <div class="form-control">
+                            <label for="pincode">Pincode</label>
+                            <input type="number" name="pincode" id="pincode"
+                            placeholder="Enter Pincode">
+                        </div>
+                        <div class="form-control">
+                            <label for="dob">D.O.B</label>
+                            <input type="date" name="dob" id="dob">
+                        </div>
+                        <div class="form-control">
+                            <label for="resume">Upload Your Resume</label>
+                            <input type="file" name="resume" id="resume">
+                        </div>
+                        <div class="button-container">
+                            <button type="submit">Apply Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="textcenter">
+        <p>Copyright &copy; BDM.com</p>
+    </footer>
+</body>
+</html>
